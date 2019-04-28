@@ -274,7 +274,10 @@ including providing loop invariants.
 
 <h2 id="model-checkers">Model Checkers</h2>
 
-<pre><code>
+<pre><code>A model checker usually supports a specification language (logic) of 
+limited expressiveness (compared to e.g. theorem proving langages), 
+but where verification is fully automated. Focus is typically on
+specification and verification of concurrent systems.
 </code></pre>
 
 <ul>
@@ -288,22 +291,53 @@ including providing loop invariants.
 
 <h2 id="smt-solvers">SMT Solvers</h2>
 
+<pre><code>SMT (Satisfiability Modulo Theories) is a form of the constraint 
+satisfaction problem, and stands for extensions of first-order logic
+with additional theories, such as e.g. real numbers, integers, 
+and the theories of various data structures such as lists, arrays, 
+bit vectors and so on. Decision procedures decide satisfiablity of 
+formulas in these extended logics. SMT is fully automated.
+</code></pre>
+
 <ul>
 <li><a href="https://github.com/Z3Prover">Z3</a></li>
 </ul>
 
-<h2 id="static-analysis">Static Analysis</h2>
+<h2 id="static-program-analysis">Static Program Analysis</h2>
+
+<pre><code>Static program analysis is the analysis of computer software 
+performed without actually executing programs. Analysis 
+is performed on the source code or generated object code. 
+Static analysis cannot verify functional correctness but focuses 
+on detecting bad programming practices, and does so fully
+automatically and scalable.
+</code></pre>
 
 <ul>
 <li><a href="https://www.grammatech.com/products/codesonar">CodeSonar</a> ($)</li>
 <li><a href="https://scan.coverity.com">Coverity</a> ($)</li>
+<li><a href="http://findbugs.sourceforge.net">FindBugs</a></li>
 <li><a href="https://www.roguewave.com/company">KlocWork</a> ($)</li>
 <li><a href="https://semmle.com">Semmle</a> ($)</li>
 </ul>
 
-<h2 id="programming-languages">Programming Languages</h2>
+<h2 id="verificable-programming-languages">Verificable Programming Languages</h2>
 
-<p><a href="https://www.microsoft.com/en-us/research/project/dafny-a-language-and-program-verifier-for-functional-correctness">Dafny</a></p>
+<pre><code>A verifiable programming language is a programming language supporting
+a logic for specifying functional correctness of code, e.g. pre/post 
+conditions and invariants, and (usually) tool support for proving such 
+properties of the code correct. Proofs normally require manual addition
+of lemmas (e.g. loop invariants).
+</code></pre>
+
+<ul>
+<li><a href="https://wiki.portal.chalmers.se/agda/pmwiki.php">Agda</a></li>
+<li><a href="https://www.microsoft.com/en-us/research/project/dafny-a-language-and-program-verifier-for-functional-correctness">Dafny</a></li>
+<li><a href="https://www.eiffel.org">Eiffel</a></li>
+<li><a href="https://www.idris-lang.org">Idris</a></li>
+<li><a href="http://whiley.org">Whiley</a></li>
+<li><a href="http://why3.lri.fr">Why3</a></li>
+</ul>
 
   </main>
 

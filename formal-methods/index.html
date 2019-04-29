@@ -301,14 +301,30 @@ specification and verification of concurrent systems.
 <li><a href="http://www.uppaal.com">UPPAAL Commercial</a> ($)</li>
 </ul>
 
+<h2 id="sat-solvers">SAT Solvers</h2>
+
+<pre><code>SAT stands for Boolean SATisfiability (also called propositional
+satisfiability) and is the problem of determining if there exists
+an interpretation that satisfies a given Boolean formula.
+In other words, it asks whether the variables of a given Boolean
+formula can be consistently replaced by the values TRUE or FALSE
+in such a way that the formula evaluates to TRUE. SAT is fully
+automated.
+</code></pre>
+
+<ul>
+<li><a href="http://alloytools.org">Alloy</a></li>
+</ul>
+
 <h2 id="smt-solvers">SMT Solvers</h2>
 
-<pre><code>SMT (Satisfiability Modulo Theories) is a form of the constraint 
-satisfaction problem, and stands for extensions of first-order logic
-with additional theories, such as e.g. real numbers, integers, 
-and the theories of various data structures such as lists, arrays, 
-bit vectors and so on. Decision procedures decide satisfiablity of 
-formulas in these extended logics. SMT is fully automated.
+<pre><code>SMT (Satisfiability Modulo Theories) is a generalization of the
+SAT problem, and is a form of the constraint satisfaction problem,
+which extends first-order logic with additional theories,
+such as e.g. real numbers, integers, and theories of various
+data structures such as lists, arrays, bit vectors and so on.
+Decision procedures decide satisfiablity of formulas in these
+extended logics. SMT is fully automated.
 </code></pre>
 
 <ul>
@@ -350,6 +366,17 @@ properties can be more conveniently captured as formal specifications.
 <li><a href="http://fsl.cs.illinois.edu/index.php/JavaMOP4">JavaMOP</a></li>
 <li><a href="https://github.com/selig/qea">QEA</a></li>
 <li><a href="https://www.runtimeverification.com/monitor/">RVMonitor</a> ($)</li>
+</ul>
+
+<h2 id="model-based-testing">Model-based Testing</h2>
+
+<pre><code>Model-based testing uses a formal model to test a System Under Test
+(SUT). The model can represent the desired behavior of the SUT, or
+can represent testing strategies and/or test environment. 
+</code></pre>
+
+<ul>
+<li><a href="http://graphwalker.github.io">GraphWalker</a></li>
 </ul>
 
 <h2 id="verificable-programming-languages">Verificable Programming Languages</h2>

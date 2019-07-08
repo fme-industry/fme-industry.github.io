@@ -57,10 +57,9 @@ The FME Industry committee consists of the following individuals, whom provide i
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://fme-industry.github.io/formal-methods/</guid>
-      <description>Under construction
-Submit your formal method here in case it is not on the list. You may also submit comments to the website.
+      <description>Submit your formal method here in case it is not on the list. You may also submit comments to the website.
 Tools within each group are sorted alphabetically. A $-sign indicates that there is a commercial company behind and that acquisition of the tool is fee-based for industrial use.
-Of General Interest Websites offering surveys and categories of formal methods oriented tools.   Choosing a Formal Method Formal Methods Wiki rise4fun.</description>
+PS: Note that the grouping of these tools is not ideal in several cases. A label system would be preferable.</description>
     </item>
     
   </channel>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Formal Methods &amp; Industry</title>
@@ -20,7 +20,7 @@
       <description>This website has been created as part of a directive from the FME (Formal Methods Europe) commitee:
 http://www.fmeurope.org
 to establish an FME Industry committee in support for infusion of formal methods into industry.
-The FME Industry committee consists of the following individuals, whom provide input to what is contained on this website:
+The FME Industry committee consists of the following individuals:
  Nikolaj Bjorner, Microsoft Research, USA Jonathan Bowen, London South Bank University, UK Alessandro Cimatti, FBK Trento, Italy Rance Cleaveland, Maryland University, USA Jan Friso Groote, Eindhoven University, The Netherlands John Hatcliff, Kansas State University, USA Klaus Havelund, Jet Propulsion Laboratory/NASA, USA Gerwin Klein, University of NewSouth Wales, Australia Thierry Lecompte, ClearSy, France Colin O’Halloran, D-RisQ Ltd.</description>
     </item>
     

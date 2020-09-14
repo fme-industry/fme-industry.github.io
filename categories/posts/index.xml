@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts | Formal Methods &amp; Industry</title>
+    <link>/categories/posts/</link>
+      <atom:link href="/categories/posts/index.xml" rel="self" type="application/rss+xml" />
+    <description>Posts</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 23 Feb 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/fme.png</url>
+      <title>Posts</title>
+      <link>/categories/posts/</link>
+    </image>
+    
+    <item>
+      <title>First Post</title>
+      <link>/post/posts/</link>
+      <pubDate>Fri, 23 Feb 2018 00:00:00 +0000</pubDate>
+      <guid>/post/posts/</guid>
+      <description>&lt;p&gt;Bla bla&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

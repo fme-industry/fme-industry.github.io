@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Meetings | Formal Methods &amp; Industry</title>
+    <link>/categories/meetings/</link>
+      <atom:link href="/categories/meetings/index.xml" rel="self" type="application/rss+xml" />
+    <description>Meetings</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 23 Feb 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/fme.png</url>
+      <title>Meetings</title>
+      <link>/categories/meetings/</link>
+    </image>
+    
+    <item>
+      <title>First Meeting</title>
+      <link>/post/meetings/first-meeting/</link>
+      <pubDate>Fri, 23 Feb 2018 00:00:00 +0000</pubDate>
+      <guid>/post/meetings/first-meeting/</guid>
+      <description>&lt;h2 id=&#34;february-23-24-2018-fme-teaching-committee-first-meeting-agenda-and-references&#34;&gt;February 23-24, 2018, FME Teaching Committee, first meeting: Agenda and references&lt;/h2&gt;
+&lt;h3 id=&#34;agenda&#34;&gt;Agenda&lt;/h3&gt;
+&lt;p&gt;Bla bla&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

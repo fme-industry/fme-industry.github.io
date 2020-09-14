@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Events | Formal Methods &amp; Industry</title>
+    <link>/categories/events/</link>
+      <atom:link href="/categories/events/index.xml" rel="self" type="application/rss+xml" />
+    <description>Events</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 03 Oct 2019 12:05:12 +0100</lastBuildDate>
+    <image>
+      <url>/img/fme.png</url>
+      <title>Events</title>
+      <link>/categories/events/</link>
+    </image>
+    
+    <item>
+      <title>...</title>
+      <link>/post/events/event1/</link>
+      <pubDate>Thu, 03 Oct 2019 12:05:12 +0100</pubDate>
+      <guid>/post/events/event1/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Some great event&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Event description&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

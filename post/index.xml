@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts | Formal Methods &amp; Industry</title>
+    <link>/post/</link>
+      <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <description>Posts</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 03 Oct 2019 12:05:12 +0100</lastBuildDate>
+    <image>
+      <url>/img/fme.png</url>
+      <title>Posts</title>
+      <link>/post/</link>
+    </image>
+    
+    <item>
+      <title>...</title>
+      <link>/post/events/event1/</link>
+      <pubDate>Thu, 03 Oct 2019 12:05:12 +0100</pubDate>
+      <guid>/post/events/event1/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Some great event&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Event description&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>First Meeting</title>
+      <link>/post/meetings/first-meeting/</link>
+      <pubDate>Fri, 23 Feb 2018 00:00:00 +0000</pubDate>
+      <guid>/post/meetings/first-meeting/</guid>
+      <description>&lt;h2 id=&#34;february-23-24-2018-fme-teaching-committee-first-meeting-agenda-and-references&#34;&gt;February 23-24, 2018, FME Teaching Committee, first meeting: Agenda and references&lt;/h2&gt;
+&lt;h3 id=&#34;agenda&#34;&gt;Agenda&lt;/h3&gt;
+&lt;p&gt;Bla bla&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>First Post</title>
+      <link>/post/posts/</link>
+      <pubDate>Fri, 23 Feb 2018 00:00:00 +0000</pubDate>
+      <guid>/post/posts/</guid>
+      <description>&lt;p&gt;Bla bla&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

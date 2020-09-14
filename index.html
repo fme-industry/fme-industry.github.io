@@ -1,0 +1,2217 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.5.0">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Formal Methods Industry Committee">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="">
+
+  
+  <link rel="alternate" hreflang="en-us" href="/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.css" integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ==" crossorigin="anonymous">
+    
+
+    
+
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.min.632dd1a5f5de30986b8ab65b386b31c4.css">
+
+  
+
+  
+
+
+
+
+  
+
+
+  
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Formal Methods &amp; Industry">
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon-32.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="/">
+
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="og:site_name" content="Formal Methods &amp; Industry">
+  <meta property="og:url" content="/">
+  <meta property="og:title" content="Formal Methods &amp; Industry">
+  <meta property="og:description" content=""><meta property="og:image" content="/img/fme.png">
+  <meta property="twitter:image" content="/img/fme.png"><meta property="og:locale" content="en-us">
+  
+    <meta property="og:updated_time" content="2019-10-03T12:05:12&#43;01:00">
+  
+
+  
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "/?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  },
+  "url": "/"
+}
+</script>
+
+
+  
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "/",
+  "name": "Formal Methods \u0026 Industry",
+  "logo": "/img/fme.png",
+  
+  
+  
+  
+  "url": "/"
+}
+</script>
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  <title>Formal Methods &amp; Industry</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#navbar-main" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/"><img src="/img/fme.png" alt="Formal Methods &amp; Industry"></a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav mr-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about" data-target="#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#objectives" data-target="#objectives"><span>Objectives</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#formal-methods" data-target="#formal-methods"><span>Formal methods</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#producers" data-target="#producers"><span>Producers</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#users" data-target="#users"><span>Users</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#applications" data-target="#applications"><span>Applications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#events" data-target="#events"><span>Events</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts" data-target="#posts"><span>Posts</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#meetings" data-target="#meetings"><span>Meetings</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#links" data-target="#links"><span>Links</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact" data-target="#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+      </ul>
+      <ul class="navbar-nav ml-auto">
+      
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+  
+
+
+
+
+
+
+
+
+
+<span class="js-widget-page d-none"></span>
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+    
+    
+    
+  
+
+  <section id="slider" class="home-section wg-slider    carousel slide"  data-ride="carousel" data-interval="5000">
+    
+      
+
+
+
+
+<ol class="carousel-indicators">
+  
+  <li data-target="#slider" data-slide-to="0" class="active"></li>
+  
+  <li data-target="#slider" data-slide-to="1" ></li>
+  
+</ol>
+
+
+<div class="carousel-inner">
+  
+  <div class="wg-hero dark carousel-item active" style="
+    
+    background-color: #666;
+    
+    
+    background-image:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    url('/img/headers/audience.jpg');
+    
+    ;">
+    <div class="container" style="text-align: center;">
+        <h1 class="hero-title">
+          Formal Methods 2022
+        </h1>
+
+        
+        <p class="hero-lead" style="margin: 0 auto 0 auto;">
+          Formal Methods conference 2021, Nov 20, 2021 - Nov 26, 2021, Beijing, China
+        </p>
+        
+
+        
+        
+        
+        
+          
+        
+        <p>
+          <a href="http://formalmethods2021.csp.escience.cn" class="btn btn-light btn-lg"><i class="fas fa-arrow-circle-right" style="padding-right: 10px;"></i>Learn more</a>
+        </p>
+        
+      </div>
+  </div>
+  
+  <div class="wg-hero dark carousel-item" style="
+    
+    background-color: #666;
+    
+    
+    background-image:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    url('/img/headers/bandwidth.jpg');
+    
+    ;">
+    <div class="container" style="text-align: center;">
+        <h1 class="hero-title">
+          Formal Methods meets Industry @ FM 2019
+        </h1>
+
+        
+        <p class="hero-lead" style="margin: 0 auto 0 auto;">
+          Complementing the academic program, the Industry Day targets industrial development of formal methods, and the FM Tool Exhibition will provide a forum for developers of academic or industrial tools that support the use of formal methods in different stages of system and software development.
+        </p>
+        
+
+        
+        
+        
+        
+          
+        
+        <p>
+          <a href="http://formalmethods2019.inesctec.pt/?page_id=2101" class="btn btn-light btn-lg"><i class="fas fa-arrow-circle-right" style="padding-right: 10px;"></i>Learn more</a>
+        </p>
+        
+      </div>
+  </div>
+  
+</div>
+
+
+<a class="carousel-control-prev" href="#slider" data-slide="prev">
+  <span class="carousel-control-prev-icon"></span>
+  <span class="sr-only">Previous</span>
+</a>
+<a class="carousel-control-next" href="#slider" data-slide="next">
+  <span class="carousel-control-next-icon"></span>
+  <span class="sr-only">Next</span>
+</a>
+
+    
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="about" class="home-section wg-featurette   "  >
+    <div class="container">
+      
+
+
+<div class="row featurette">
+  
+  <div class="col-md-12 section-heading">
+    <h1>Formal Methods &amp; Industry</h1>
+    
+  </div>
+  
+
+  
+  <div class="col-md-12">
+    <p>Welcome to the <a href="http://www.fmeurope.org">Formal Methods Europe</a> (FME) industry oriented website.</p>
+
+  </div>
+  
+
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-4">
+    <div class="featurette-icon"><i class="fas fa-handshake"></i></div>
+    <h3>Events &amp; Meetings</h3>
+    <p>Relevant <a href="#events">events</a> and <a href="#meetings">meetings</a>.</p>
+  </div>
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-4">
+    <div class="featurette-icon"><i class="fas fa-industry"></i></div>
+    <h3>Companies</h3>
+    <p>A collection of <a href="companies/">companies</a> that adopted FM.</p>
+  </div>
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-4">
+    <div class="featurette-icon"><i class="fas fa-flag"></i></div>
+    <h3>Case Studies</h3>
+    <p>A collection of industrial <a href="casestudies/">case studies</a>.</p>
+  </div>
+  
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="objectives" class="home-section wg-blank   " style="padding: 20px 0 20px 0;" >
+    <div class="container">
+      
+
+
+<div class="row">
+  
+    <div class="col-lg-12">
+      <h1>Objectives</h1>
+      
+      <p>The website is intended to support industry in the use of formal methods, and will include a listing of:</p>
+<ol>
+<li>
+<p>formal methods (free as well as commercial)</p>
+</li>
+<li>
+<p>industry users of formal methods</p>
+</li>
+<li>
+<p>case studies, success stories, evaluations</p>
+</li>
+<li>
+<p>useful links, including links to teachning material</p>
+</li>
+</ol>
+<h3 id="definition-of-formal-methods">Definition of Formal Methods</h3>
+<p>It can be difficult to precisely define what is a formal method. A popular formulation is that it is a technique for developing correct software which is based on mathematical rigorius principles. The Wikipedia offers a more elaborate <a href="https://en.wikipedia.org/wiki/Formal_methods">definition</a>.</p>
+<p>The benefit of using formal methods is intended to be more <strong>reliable</strong> software and hardware systems. Also <strong>productivity gains</strong> can be expected with some methods. Some formal methods provide a structured rigorous way to think about a problem up front, which in itself has advantages (even in lack of tool support). Other formal methods are code oriented, and can ensure that written code is correct.</p>
+
+    </div>
+  
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="formal-methods" class="home-section wg-blank   " style="padding: 20px 0 20px 0;" >
+    <div class="container">
+      
+
+
+<div class="row">
+  
+    <div class="col-lg-12">
+      <h1>Formal Methods</h1>
+      
+      <p>Below is a list of formal methods.</p>
+<p>Submit your formal method <a href="https://forms.gle/Lmy6ZPPxYgjj7gXMA">here</a> in case it is not on the list. You may also submit comments to the website. Or: simply send an email to Klaus Havelund <a href="mailto:havelund@gmail.com">havelund@gmail.com</a>.</p>
+<p>Tools within each group are sorted alphabetically. A $-sign indicates that there is a commercial company behind
+and that acquisition of the tool is fee-based for industrial use.</p>
+<p>PS: Note that the grouping of these tools is not ideal in several cases. A label system would be preferable.</p>
+<h2 id="of-general-interest">Of General Interest</h2>
+<pre><code>Websites offering surveys and categories of formal methods oriented tools.
+</code></pre><ul>
+<li><a href="http://www.fmeurope.org/choosingaformalmethod">Choosing a Formal Method</a></li>
+<li><a href="https://formalmethods.wikia.org/wiki/Formal_methods">Formal Methods Wiki</a></li>
+<li><a href="https://rise4fun.com">rise4fun.com</a></li>
+</ul>
+<h2 id="theorem-provers">Theorem Provers</h2>
+<pre><code>A theorem prover usually supports a very expressive specification 
+language (logic), such as e.g. classical higher order logic or 
+constructive type theory, a proof system, and mechanized support 
+for performing proofs. Proofs normally require manual effort, 
+including providing loop invariants.
+</code></pre><ul>
+<li><a href="http://www.cs.utexas.edu/users/moore/acl2">ACL2</a></li>
+<li><a href="https://www.atelierb.eu/en">Atelier B</a></li>
+<li><a href="https://www.methode-b.com/en/accueil">B</a></li>
+<li><a href="https://coq.inria.fr">Coq</a></li>
+<li><a href="http://www.event-b.org">Event-B</a></li>
+<li><a href="https://hol-theorem-prover.org">HOL</a></li>
+<li><a href="https://isabelle.in.tum.de">Isabelle</a></li>
+<li><a href="http://symbolaris.com/info/KeYmaera.html#X">KeYmaera X</a></li>
+<li><a href="https://leanprover.github.io">Lean</a></li>
+<li><a href="https://www.prover.com">Prover</a> ($)</li>
+<li><a href="http://pvs.csl.sri.com">PVS</a></li>
+<li><a href="https://vprover.github.io">Vampire</a></li>
+</ul>
+<h2 id="rewrite-systems">Rewrite Systems</h2>
+<pre><code>Rewrite systems are based on so-called algebraic specification languages, 
+where data types are specified by naming types (but not their contents), 
+operations on those types, and equations between terms of operation applications. 
+E.g. instead of specifying a stack as a list of elements, one specifies that 
+pushing an element to a stack and then popping an element leaves us with the 
+original stack. Rewrite systems perform rewriting of such terms. One may perceive 
+rewrite systems as a sub-class of theorem provers.
+</code></pre><ul>
+<li><a href="http://www.informatik.uni-bremen.de/cofi/index.php/CASL">CASL</a></li>
+<li><a href="http://maude.cs.illinois.edu">Maude</a></li>
+</ul>
+<h2 id="model-checkers">Model Checkers</h2>
+<pre><code>A model checker usually supports a specification language (logic) of 
+limited expressiveness (compared to e.g. theorem proving langages), 
+but where verification is fully automated. Focus is typically on
+specification and verification of concurrent systems.
+</code></pre><ul>
+<li><a href="http://cadp.inria.fr">CADP</a></li>
+<li><a href="http://cpntools.org">CPN</a></li>
+<li><a href="https://sites.google.com/site/fastenroot/home">FASTEN</a></li>
+<li><a href="https://www.cs.ox.ac.uk/projects/fdr">FDR4</a></li>
+<li><a href="https://www.mcrl2.org">mCRL2</a></li>
+<li><a href="http://formalverification.cs.utah.edu/Murphi">Murphi</a></li>
+<li><a href="http://nusmv.fbk.eu">NuSMV</a></li>
+<li><a href="https://www.cs.cmu.edu/~modelcheck/smv.html">SMV</a></li>
+<li><a href="http://spinroot.com/spin/whatispin.html">Spin</a></li>
+<li><a href="http://www.uppaal.org">UPPAAL</a></li>
+<li><a href="http://www.uppaal.com">UPPAAL Commercial</a> ($)</li>
+</ul>
+<h2 id="sat-solvers">SAT Solvers</h2>
+<pre><code>SAT stands for Boolean SATisfiability (also called propositional
+satisfiability) and is the problem of determining if there exists
+an interpretation that satisfies a given Boolean formula.
+In other words, it asks whether the variables of a given Boolean
+formula can be consistently replaced by the values TRUE or FALSE
+in such a way that the formula evaluates to TRUE. SAT is fully
+automated.
+</code></pre><ul>
+<li><a href="http://alloytools.org">Alloy</a></li>
+</ul>
+<h2 id="smt-solvers">SMT Solvers</h2>
+<pre><code>SMT (Satisfiability Modulo Theories) is a generalization of the
+SAT problem, and is a form of the constraint satisfaction problem,
+which extends first-order logic with additional theories,
+such as e.g. real numbers, integers, and theories of various
+data structures such as lists, arrays, bit vectors and so on.
+Decision procedures decide satisfiablity of formulas in these
+extended logics. SMT is fully automated.
+</code></pre><ul>
+<li><a href="https://cvc4.github.io">CVC4</a></li>
+<li><a href="http://yices.csl.sri.com">Yices</a></li>
+<li><a href="https://github.com/Z3Prover">Z3</a></li>
+</ul>
+<h2 id="static-analysis">Static Analysis</h2>
+<pre><code>Static program analysis is the analysis of computer software 
+performed without actually executing programs. Analysis 
+is performed on the source code or generated object code. 
+Static analysis cannot verify functional correctness but focuses 
+on detecting bad programming practices, and does so fully
+automatically and scalable.
+</code></pre><ul>
+<li><a href="https://www.absint.com">AbsInt</a> ($)</li>
+<li><a href="https://www.grammatech.com/products/codesonar">CodeSonar</a> ($)</li>
+<li><a href="https://scan.coverity.com">Coverity</a> ($)</li>
+<li><a href="http://findbugs.sourceforge.net">FindBugs</a></li>
+<li><a href="https://www.roguewave.com/company">KlocWork</a> ($)</li>
+<li><a href="https://semmle.com">Semmle</a> ($)</li>
+</ul>
+<h2 id="dynamic-analysis">Dynamic Analysis</h2>
+<pre><code>Dynamic analysis  is based on extracting information from a 
+running system and using it to detect and possibly react to 
+violation of certain properties. Some very particular properties, 
+such as datarace and deadlock freedom, are typically desired to be 
+satisfied by all systems and may be best implemented algorithmically. 
+Other properties can be more conveniently captured as formal specifications. 
+</code></pre><ul>
+<li><a href="https://liflab.github.io/beepbeep-3">BeepBeep3</a></li>
+<li><a href="https://github.com/havelund/dejavu">DejaVu</a></li>
+<li><a href="http://fsl.cs.illinois.edu/index.php/JavaMOP4">JavaMOP</a></li>
+<li><a href="https://www.react.uni-saarland.de/tools/lola">LOLA</a></li>
+<li><a href="https://github.com/selig/qea">QEA</a></li>
+<li><a href="https://www.runtimeverification.com/monitor/">RVMonitor</a> ($)</li>
+<li><a href="http://valgrind.org">Valgrind</a></li>
+</ul>
+<h2 id="model-based-testing">Model-based Testing</h2>
+<pre><code>Model-based testing uses a formal model to test a System Under Test
+(SUT). The model can represent the desired behavior of the SUT, or
+can represent testing strategies and/or test environment. 
+</code></pre><ul>
+<li><a href="http://graphwalker.github.io">GraphWalker</a></li>
+<li><a href="https://www.reactive-systems.com">Reactis</a> ($)</li>
+<li><a href="https://www.verum.com">verum</a> ($)</li>
+</ul>
+<h2 id="modeling">Modeling</h2>
+<pre><code>Modeling is the activity of formalizing a problem before it is 
+solved, and/or it is the acticity modeling the solution at a high
+level of abstraction. As such this activity is common for all of the
+approaches mentioned on this page. However, this particular category
+is meant for approaches where the main focus is on modeling rather
+than on formal verification.
+</code></pre><ul>
+<li><a href="http://web.eecs.umich.edu/gasm">ASM</a> <a href="https://formalmethods.wikia.org/wiki/Abstract_State_Machines">wikia</a></li>
+<li><a href="http://argouml.tigris.org">ArgoUML</a></li>
+<li><a href="http://symbolaris.com/logic/dL.html">dL</a></li>
+<li><a href="http://focus.in.tum.de">Focus</a></li>
+<li><a href="http://spd-web.terma.com/Projects/RAISE">RAISE</a></li>
+<li><a href="http://sdl-forum.org">SDL</a></li>
+<li><a href="http://overturetool.org">VDM (Overture)</a></li>
+<li><a href="http://czt.sourceforge.net">Z (CZT)</a></li>
+</ul>
+<h2 id="verifiable-programming-languages">Verifiable Programming Languages</h2>
+<pre><code>A verifiable programming language is a programming language supporting
+a logic for specifying functional correctness of code, e.g. pre/post 
+conditions and invariants, and (usually) tool support for proving such 
+properties of the code correct. Proofs normally require manual addition
+of lemmas (e.g. loop invariants).
+</code></pre><ul>
+<li><a href="https://wiki.portal.chalmers.se/agda/pmwiki.php">Agda</a></li>
+<li><a href="http://bandera.projects.cs.ksu.edu">Bandera</a> (Java)</li>
+<li><a href="https://www.microsoft.com/en-us/research/project/dafny-a-language-and-program-verifier-for-functional-correctness">Dafny</a></li>
+<li><a href="http://www.eschertech.com/index.php">Escher C Verifier</a> ( C ) ($)</li>
+<li><a href="https://www.eiffel.org">Eiffel</a></li>
+<li><a href="https://frama-c.com">Frama-C</a> ( C )</li>
+<li><a href="https://www.idris-lang.org">Idris</a></li>
+<li><a href="http://javapathfinder.sourceforge.net">Java PathFinder</a> (Java)</li>
+<li><a href="http://www.eecs.ucf.edu/~leavens/JML//index.shtml">JML</a> (Java)</li>
+<li><a href="https://www.key-project.org">KeY</a> (Java)</li>
+<li><a href="http://mbeddr.com">mbeddr</a> ( C )</li>
+<li><a href="https://github.com/p-org/P">P</a></li>
+<li><a href="https://www.microsoft.com/en-us/research/project/spec/">Spec#</a> (C#)</li>
+<li><a href="https://www.adacore.com/sparkpro">Spark Ada</a> ($)</li>
+<li><a href="https://github.com/verifast/verifast">VeriFast</a> ( C )</li>
+<li><a href="https://www.microsoft.com/en-us/research/project/vcc-a-verifier-for-concurrent-c/">VCC</a> ( C )</li>
+<li><a href="http://whiley.org">Whiley</a></li>
+<li><a href="http://why3.lri.fr">Why3</a> (Ocaml)</li>
+<li></li>
+</ul>
+
+    </div>
+  
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="producers" class="home-section wg-blank   " style="padding: 20px 0 20px 0;" >
+    <div class="container">
+      
+
+
+<div class="row">
+  
+    <div class="col-lg-12">
+      <h1>Companies Offering Formal Methods</h1>
+      
+      <p>This is a list of companies offering formal methods tools and/or consulting.</p>
+<ul>
+<li>
+<p><a href="https://www.absint.com">AbsInt</a></p>
+<ul>
+<li>Tool: abstract interpretation (static analysis)</li>
+</ul>
+</li>
+<li>
+<p><a href="https://www.clearsy.com">Clearsy</a>, France.</p>
+<ul>
+<li>Domain: railways</li>
+</ul>
+</li>
+<li>
+<p><a href="www.verified.de">Verified Systems International GmbH</a>, Bremen, Germany</p>
+<ul>
+<li>Services: consulting, formal verification by model checking, abstract interpretation, or theorem proving, and conventional techniques are offered like review, code inspection, testing.</li>
+<li>Tool: Model-based Testing Tool <a href="https://www.verified.de/products/model-based-testing">RT-Tester</a> (RTT-MBT),
+based on formal SysML models, derives symbolic test cases as LTL
+formulas, creates concrete test data and procedures by SMT
+solving.</li>
+<li>Tool: Source to Object Code Traceability Tool STO-Analyzer
+performs partial verification of object code against C-code,
+according to DAL-A verification requirements from RTCA DO-178C.</li>
+</ul>
+</li>
+<li>
+<p><a href="https://verum.com">Verum</a></p>
+<ul>
+<li>Tool: <a href="https://verum.com/discover-dezyne/">Dezyne</a></li>
+</ul>
+</li>
+</ul>
+
+    </div>
+  
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="users" class="home-section wg-blank   " style="padding: 20px 0 20px 0;" >
+    <div class="container">
+      
+
+
+<div class="row">
+  
+    <div class="col-lg-12">
+      <h1>Companies using Formal Methods</h1>
+      
+      <p>This is a list of companies that use formal methods.</p>
+
+    </div>
+  
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="applications" class="home-section wg-blank   " style="padding: 20px 0 20px 0;" >
+    <div class="container">
+      
+
+
+<div class="row">
+  
+    <div class="col-lg-12">
+      <h1>Applications of Formal Methods</h1>
+      
+      <p>This is a list of applications of formal methods in industry.</p>
+
+    </div>
+  
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="members" class="home-section wg-blank   " style="padding: 20px 0 20px 0;" >
+    <div class="container">
+      
+
+
+<div class="row">
+  
+    <div class="col-lg-12">
+      <h1>Members</h1>
+      
+      <p>The committee consists of the following members:</p>
+<ul>
+<li><a href="https://www.microsoft.com/en-us/research/people/nbjorner/">Nikolaj Bjorner</a>, Microsoft Research, USA</li>
+<li><a href="https://en.wikipedia.org/wiki/Jonathan_Bowen">Jonathan Bowen</a>, London South Bank University, UK</li>
+<li><a href="https://es-static.fbk.eu/people/cimatti/">Alessandro Cimatti</a>, FBK Trento, Italy</li>
+<li><a href="https://www.cs.umd.edu/~rance/">Rance Cleaveland</a>, Maryland University, USA</li>
+<li><a href="https://www.tue.nl/en/research/researchers/jan-friso-groote">Jan Friso Groote</a>, Eindhoven University, The Netherlands</li>
+<li><a href="http://people.cs.ksu.edu/~hatcliff/cms/">John Hatcliff</a>, Kansas State University, USA</li>
+<li><a href="http://www.havelund.com">Klaus Havelund</a>, Jet Propulsion Laboratory/NASA, USA</li>
+<li><a href="http://www.cse.unsw.edu.au/~kleing/">Gerwin Klein</a>, University of NewSouth Wales, Australia</li>
+<li><a href="https://www.researchgate.net/profile/Thierry_Lecomte">Thierry Lecompte</a>, ClearSy, France</li>
+<li><a href="https://www.linkedin.com/in/colin-o-halloran-9887975/?originalSubdomain=uk">Colin O’Halloran</a>, D-RisQ Ltd., UK</li>
+<li><a href="http://www.informatik.uni-bremen.de/agbs/jp/">Jan Peleska</a>, Bremen University, Germany</li>
+<li><a href="https://www.linkedin.com/in/shaz-qadeer-88b3332/">Shaz Qadeer</a>, Facebook, USA</li>
+<li><a href="http://www.es.mdh.se/staff/173-Cristina_Seceleanu">Cristina Seceleanu</a>, Malardalen University, Sweden</li>
+<li><a href="http://voelter.de">Markus Völter</a>,  Völter Ingenieurbüro, Germany</li>
+</ul>
+<p>Chair of the committtee is Klaus Havelund.</p>
+<p><a href="previous-members">List of previous members</a>.</p>
+
+    </div>
+  
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="events" class="home-section wg-pages   "  >
+    <div class="container">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+<div class="row">
+  <div class="col-12 col-lg-4 section-heading">
+    <h1>Events</h1>
+    
+  </div>
+  <div class="col-12 col-lg-8">
+
+    
+
+    
+      
+        
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/post/events/event1/" >...</a>
+    </h3>
+
+    
+    <div class="article-style">
+      &hellip;
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Oct 3, 2019
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/categories/events/">Events</a></span>
+  
+
+  
+
+</div>
+
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/post/events/event1/" >
+      <img src="/post/events/event1/featured_huc2620fce0d9bba3dbc542093a2fa306f_22152_150x0_resize_lanczos_2.png" alt="">
+    </a>
+    
+  </div>
+</div>
+
+      
+    
+
+    
+
+  </div>
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="posts" class="home-section wg-pages   "  >
+    <div class="container">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+<div class="row">
+  <div class="col-12 col-lg-4 section-heading">
+    <h1>Recent Posts</h1>
+    
+  </div>
+  <div class="col-12 col-lg-8">
+
+    
+
+    
+      
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/post/posts/" >First Post</a>
+    </h3>
+
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Feb 23, 2018
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/categories/posts/">Posts</a></span>
+  
+
+  
+
+</div>
+
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+      
+    
+
+    
+
+  </div>
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="meetings" class="home-section wg-pages   "  >
+    <div class="container">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+<div class="row">
+  <div class="col-12 col-lg-4 section-heading">
+    <h1>Meetings</h1>
+    
+  </div>
+  <div class="col-12 col-lg-8">
+
+    
+
+    
+      
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/post/meetings/first-meeting/" >First Meeting</a>
+    </h3>
+
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Feb 23, 2018
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/categories/meetings/">Meetings</a></span>
+  
+
+  
+
+</div>
+
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+      
+    
+
+    
+
+  </div>
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="links" class="home-section wg-blank   " style="padding: 20px 0 20px 0;" >
+    <div class="container">
+      
+
+
+<div class="row">
+  
+    <div class="col-lg-12">
+      <h1>Links</h1>
+      
+      <ul>
+<li>Formal Methods Europe (FME) <a href="http://www.fmeurope.org">http://www.fmeurope.org</a></li>
+<li>FME&rsquo;s Teaching Committee Page <a href="http://www.fmeurope.org/teaching">http://www.fmeurope.org/teaching</a></li>
+</ul>
+
+    </div>
+  
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="contact" class="home-section wg-contact   "  >
+    <div class="container">
+      
+
+
+
+
+
+<div class="row contact-widget">
+  <div class="col-12 col-lg-4 section-heading">
+    <h1>Contact</h1>
+    
+  </div>
+  <div class="col-12 col-lg-8">
+    
+
+    
+
+    <ul class="fa-ul">
+
+      
+      <li>
+        <i class="fa-li fas fa-envelope fa-2x" aria-hidden="true"></i>
+        <span id="person-email"><a href="mailto:industry@fmeurope.org">industry@fmeurope.org</a></span>
+      </li>
+      
+
+      
+
+      
+      
+
+      
+
+      
+
+      
+
+      
+      
+
+    </ul>
+
+    
+
+  </div>
+</div>
+
+    </div>
+  </section>
+
+
+
+      
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/r.min.js"></script>
+        
+      
+
+      
+      
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.js" integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log==" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+      
+    
+    
+    
+    <script src="/js/academic.min.607b393554b41676a43e5d35fe64ee85.js"></script>
+
+    
+
+
+
+
+
+
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" class="back-to-top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

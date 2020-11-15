@@ -5,7 +5,7 @@
     <link>/categories/meetings/</link>
       <atom:link href="/categories/meetings/index.xml" rel="self" type="application/rss+xml" />
     <description>Meetings</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 23 Feb 2018 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 14 Nov 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/fme.png</url>
       <title>Meetings</title>
@@ -13,13 +13,33 @@
     </image>
     
     <item>
-      <title>First Meeting</title>
-      <link>/post/meetings/first-meeting/</link>
-      <pubDate>Fri, 23 Feb 2018 00:00:00 +0000</pubDate>
-      <guid>/post/meetings/first-meeting/</guid>
-      <description>&lt;h2 id=&#34;february-23-24-2018-fme-teaching-committee-first-meeting-agenda-and-references&#34;&gt;February 23-24, 2018, FME Teaching Committee, first meeting: Agenda and references&lt;/h2&gt;
+      <title>March 2020 Meeting</title>
+      <link>/post/meetings/meeting1/</link>
+      <pubDate>Sat, 14 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>/post/meetings/meeting1/</guid>
+      <description>&lt;h2 id=&#34;march-25-2020-fme-industry-committee-meeting&#34;&gt;March 25, 2020, FME Industry Committee meeting&lt;/h2&gt;
 &lt;h3 id=&#34;agenda&#34;&gt;Agenda&lt;/h3&gt;
-&lt;p&gt;Bla bla&lt;/p&gt;
+&lt;p&gt;To discuss which actions the industry committe should take on.&lt;/p&gt;
+&lt;h3 id=&#34;minutes&#34;&gt;Minutes&lt;/h3&gt;
+&lt;p&gt;The committee agreed to the following actions&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Create list of &amp;lsquo;formal methods tools&amp;rsquo; with focus on
+mature tools, preferably used by others than the developers, and preferably with use in industry. We will start by defining 5-7 criteria for which tools to include.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Create list of &amp;lsquo;applications of formal methods&amp;rsquo; that demonstrate feasibility. These will be sorted by domain.  The teaching committee is collecting &amp;lsquo;case studies&amp;rsquo;. The difference would be our focus on real applications whereas the case studies maintained by the teaching community could focus on the teaching aspect (perhaps smaller case studies, well explained). However, there is a grey zone here. This will be explored as we move forward in collaboration between the two committees.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Create list of &amp;lsquo;industrial formal methods users&amp;rsquo;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Create list of ‘formal methods companies&amp;rsquo; offering formal methods tools or consulting in formal methods.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Reconsider the design of the ‘industry website’, perhaps to use the same template as the teaching website.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
 </description>
     </item>
     

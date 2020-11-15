@@ -5,7 +5,7 @@
     <link>/categories/posts/</link>
       <atom:link href="/categories/posts/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 23 Feb 2018 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 14 Nov 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/fme.png</url>
       <title>Posts</title>
@@ -13,11 +13,13 @@
     </image>
     
     <item>
-      <title>First Post</title>
-      <link>/post/posts/</link>
-      <pubDate>Fri, 23 Feb 2018 00:00:00 +0000</pubDate>
-      <guid>/post/posts/</guid>
-      <description>&lt;p&gt;Bla bla&lt;/p&gt;
+      <title>Call for collaborations</title>
+      <link>/post/posts/post1/</link>
+      <pubDate>Sat, 14 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>/post/posts/post1/</guid>
+      <description>&lt;h3 id=&#34;collaboration&#34;&gt;Collaboration&lt;/h3&gt;
+&lt;p&gt;Industry is encouraged to announce oportunities for academic researchers to study industrial problems.&lt;/p&gt;
+&lt;p&gt;Please contact &lt;a href=&#34;mailto:industry@fmeurope.org&#34;&gt;industry@fmeurope.org&lt;/a&gt;, and we will announce it on this website.&lt;/p&gt;
 </description>
     </item>
     

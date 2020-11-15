@@ -5,7 +5,7 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Formal Methods &amp; Industry</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 03 Oct 2019 12:05:12 +0100</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 14 Nov 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/fme.png</url>
       <title>Formal Methods &amp; Industry</title>
@@ -81,11 +81,49 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/previous-members/</guid>
       <description>&lt;p&gt;Previous members:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;(2017 &amp;ndash; 2019) &lt;a href=&#34;http://www.cs.sun.ac.za/~bfischer&#34;&gt;Bernd Fisher&lt;/a&gt;, Stellenbosch University, South Africa&lt;/li&gt;
-&lt;li&gt;(2017 &amp;ndash; 2018) &lt;a href=&#34;http://home.deib.polimi.it/mandriol/SitoItaliano/sitowebpersit.html&#34;&gt;Dino
-Mandrioli&lt;/a&gt;, Politecnico di Milano, Italy&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;None&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Call for collaborations</title>
+      <link>/post/posts/post1/</link>
+      <pubDate>Sat, 14 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>/post/posts/post1/</guid>
+      <description>&lt;h3 id=&#34;collaboration&#34;&gt;Collaboration&lt;/h3&gt;
+&lt;p&gt;Industry is encouraged to announce oportunities for academic researchers to study industrial problems.&lt;/p&gt;
+&lt;p&gt;Please contact &lt;a href=&#34;mailto:industry@fmeurope.org&#34;&gt;industry@fmeurope.org&lt;/a&gt;, and we will announce it on this website.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>March 2020 Meeting</title>
+      <link>/post/meetings/meeting1/</link>
+      <pubDate>Sat, 14 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>/post/meetings/meeting1/</guid>
+      <description>&lt;h2 id=&#34;march-25-2020-fme-industry-committee-meeting&#34;&gt;March 25, 2020, FME Industry Committee meeting&lt;/h2&gt;
+&lt;h3 id=&#34;agenda&#34;&gt;Agenda&lt;/h3&gt;
+&lt;p&gt;To discuss which actions the industry committe should take on.&lt;/p&gt;
+&lt;h3 id=&#34;minutes&#34;&gt;Minutes&lt;/h3&gt;
+&lt;p&gt;The committee agreed to the following actions&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Create list of &amp;lsquo;formal methods tools&amp;rsquo; with focus on
+mature tools, preferably used by others than the developers, and preferably with use in industry. We will start by defining 5-7 criteria for which tools to include.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Create list of &amp;lsquo;applications of formal methods&amp;rsquo; that demonstrate feasibility. These will be sorted by domain.  The teaching committee is collecting &amp;lsquo;case studies&amp;rsquo;. The difference would be our focus on real applications whereas the case studies maintained by the teaching community could focus on the teaching aspect (perhaps smaller case studies, well explained). However, there is a grey zone here. This will be explored as we move forward in collaboration between the two committees.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Create list of &amp;lsquo;industrial formal methods users&amp;rsquo;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Create list of ‘formal methods companies&amp;rsquo; offering formal methods tools or consulting in formal methods.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Reconsider the design of the ‘industry website’, perhaps to use the same template as the teaching website.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
 </description>
     </item>
     
@@ -106,26 +144,6 @@ This page will contain use cases of formal methods.&lt;/p&gt;
       <guid>/post/events/event1/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Some great event&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Event description&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>First Meeting</title>
-      <link>/post/meetings/first-meeting/</link>
-      <pubDate>Fri, 23 Feb 2018 00:00:00 +0000</pubDate>
-      <guid>/post/meetings/first-meeting/</guid>
-      <description>&lt;h2 id=&#34;february-23-24-2018-fme-teaching-committee-first-meeting-agenda-and-references&#34;&gt;February 23-24, 2018, FME Teaching Committee, first meeting: Agenda and references&lt;/h2&gt;
-&lt;h3 id=&#34;agenda&#34;&gt;Agenda&lt;/h3&gt;
-&lt;p&gt;Bla bla&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>First Post</title>
-      <link>/post/posts/</link>
-      <pubDate>Fri, 23 Feb 2018 00:00:00 +0000</pubDate>
-      <guid>/post/posts/</guid>
-      <description>&lt;p&gt;Bla bla&lt;/p&gt;
 </description>
     </item>
     

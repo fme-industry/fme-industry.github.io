@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>A list of companies | Formal Methods &amp; Industry</title>
-    <link>/companies/</link>
-      <atom:link href="/companies/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://fme-industry.github.io/companies/</link>
+      <atom:link href="https://fme-industry.github.io/companies/index.xml" rel="self" type="application/rss+xml" />
     <description>A list of companies</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 05 May 2019 00:00:00 +0100</lastBuildDate>
     <image>
-      <url>/img/fme.png</url>
+      <url>https://fme-industry.github.io/img/fme.png</url>
       <title>A list of companies</title>
-      <link>/companies/</link>
+      <link>https://fme-industry.github.io/companies/</link>
     </image>
     
   </channel>

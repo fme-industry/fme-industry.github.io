@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Formal Methods &amp; Industry</title>
-    <link>/authors/admin/</link>
-      <atom:link href="/authors/admin/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://fme-industry.github.io/authors/admin/</link>
+      <atom:link href="https://fme-industry.github.io/authors/admin/index.xml" rel="self" type="application/rss+xml" />
     <description>Formal Methods &amp; Industry</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
-      <url>/img/fme.png</url>
+      <url>https://fme-industry.github.io/img/fme.png</url>
       <title>Formal Methods &amp; Industry</title>
-      <link>/authors/admin/</link>
+      <link>https://fme-industry.github.io/authors/admin/</link>
     </image>
     
   </channel>

@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories | Formal Methods &amp; Industry</title>
-    <link>/categories/</link>
-      <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://fme-industry.github.io/categories/</link>
+      <atom:link href="https://fme-industry.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <description>Categories</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 14 Nov 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/fme.png</url>
+      <url>https://fme-industry.github.io/img/fme.png</url>
       <title>Categories</title>
-      <link>/categories/</link>
+      <link>https://fme-industry.github.io/categories/</link>
     </image>
     
   </channel>

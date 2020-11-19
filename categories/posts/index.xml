@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts | Formal Methods &amp; Industry</title>
-    <link>/categories/posts/</link>
-      <atom:link href="/categories/posts/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://fme-industry.github.io/categories/posts/</link>
+      <atom:link href="https://fme-industry.github.io/categories/posts/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 14 Nov 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/fme.png</url>
+      <url>https://fme-industry.github.io/img/fme.png</url>
       <title>Posts</title>
-      <link>/categories/posts/</link>
+      <link>https://fme-industry.github.io/categories/posts/</link>
     </image>
     
     <item>
       <title>Call for collaborations</title>
-      <link>/post/posts/post1/</link>
+      <link>https://fme-industry.github.io/post/posts/post1/</link>
       <pubDate>Sat, 14 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>/post/posts/post1/</guid>
+      <guid>https://fme-industry.github.io/post/posts/post1/</guid>
       <description>&lt;h3 id=&#34;collaboration&#34;&gt;Collaboration&lt;/h3&gt;
 &lt;p&gt;Industry is encouraged to announce oportunities for academic researchers to study industrial problems.&lt;/p&gt;
 &lt;p&gt;Please contact &lt;a href=&#34;mailto:industry@fmeurope.org&#34;&gt;industry@fmeurope.org&lt;/a&gt;, and we will announce it on this website.&lt;/p&gt;

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Formal Methods &amp; Industry</title>
-    <link>/</link>
-      <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://fme-industry.github.io/</link>
+      <atom:link href="https://fme-industry.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Formal Methods &amp; Industry</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 14 Nov 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/fme.png</url>
+      <url>https://fme-industry.github.io/img/fme.png</url>
       <title>Formal Methods &amp; Industry</title>
-      <link>/</link>
+      <link>https://fme-industry.github.io/</link>
     </image>
     
     <item>
       <title>Modeling of W engine</title>
-      <link>/companies/company1/story1/</link>
+      <link>https://fme-industry.github.io/companies/company1/story1/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>/companies/company1/story1/</guid>
+      <guid>https://fme-industry.github.io/companies/company1/story1/</guid>
       <description>&lt;p&gt;In this tutorial, I&amp;rsquo;ll share my top 10 tips for getting started with Academic:&lt;/p&gt;
 &lt;h2 id=&#34;tip-1&#34;&gt;Tip 1&lt;/h2&gt;
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
@@ -35,9 +35,9 @@
     
     <item>
       <title>Example Page 1</title>
-      <link>/casestudies/example/example1/</link>
+      <link>https://fme-industry.github.io/casestudies/example/example1/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>/casestudies/example/example1/</guid>
+      <guid>https://fme-industry.github.io/casestudies/example/example1/</guid>
       <description>&lt;p&gt;In this tutorial, I&amp;rsquo;ll share my top 10 tips for getting started with Academic:&lt;/p&gt;
 &lt;h2 id=&#34;tip-1&#34;&gt;Tip 1&lt;/h2&gt;
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
@@ -56,9 +56,9 @@
     
     <item>
       <title>Example Page 2</title>
-      <link>/casestudies/example/example2/</link>
+      <link>https://fme-industry.github.io/casestudies/example/example2/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>/casestudies/example/example2/</guid>
+      <guid>https://fme-industry.github.io/casestudies/example/example2/</guid>
       <description>&lt;p&gt;Here are some more tips for getting started with Academic:&lt;/p&gt;
 &lt;h2 id=&#34;tip-3&#34;&gt;Tip 3&lt;/h2&gt;
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
@@ -77,9 +77,9 @@
     
     <item>
       <title>Previous Members</title>
-      <link>/previous-members/</link>
+      <link>https://fme-industry.github.io/previous-members/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/previous-members/</guid>
+      <guid>https://fme-industry.github.io/previous-members/</guid>
       <description>&lt;p&gt;Previous members:&lt;/p&gt;
 &lt;p&gt;None&lt;/p&gt;
 </description>
@@ -87,9 +87,9 @@
     
     <item>
       <title>Call for collaborations</title>
-      <link>/post/posts/post1/</link>
+      <link>https://fme-industry.github.io/post/posts/post1/</link>
       <pubDate>Sat, 14 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>/post/posts/post1/</guid>
+      <guid>https://fme-industry.github.io/post/posts/post1/</guid>
       <description>&lt;h3 id=&#34;collaboration&#34;&gt;Collaboration&lt;/h3&gt;
 &lt;p&gt;Industry is encouraged to announce oportunities for academic researchers to study industrial problems.&lt;/p&gt;
 &lt;p&gt;Please contact &lt;a href=&#34;mailto:industry@fmeurope.org&#34;&gt;industry@fmeurope.org&lt;/a&gt;, and we will announce it on this website.&lt;/p&gt;
@@ -98,9 +98,9 @@
     
     <item>
       <title>March 2020 Meeting</title>
-      <link>/post/meetings/meeting1/</link>
+      <link>https://fme-industry.github.io/post/meetings/meeting1/</link>
       <pubDate>Sat, 14 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>/post/meetings/meeting1/</guid>
+      <guid>https://fme-industry.github.io/post/meetings/meeting1/</guid>
       <description>&lt;h2 id=&#34;march-25-2020-fme-industry-committee-meeting&#34;&gt;March 25, 2020, FME Industry Committee meeting&lt;/h2&gt;
 &lt;h3 id=&#34;agenda&#34;&gt;Agenda&lt;/h3&gt;
 &lt;p&gt;To discuss which actions the industry committe should take on.&lt;/p&gt;
@@ -118,7 +118,7 @@ mature tools, preferably used by others than the developers, and preferably with
 &lt;p&gt;Create list of &amp;lsquo;industrial formal methods users&amp;rsquo;.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Create list of ‘formal methods companies&amp;rsquo; offering formal methods tools or consulting in formal methods.&lt;/p&gt;
+&lt;p&gt;Create list of ‘formal methods companies&#39; offering formal methods tools or consulting in formal methods.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Reconsider the design of the ‘industry website’, perhaps to use the same template as the teaching website.&lt;/p&gt;
@@ -129,9 +129,9 @@ mature tools, preferably used by others than the developers, and preferably with
     
     <item>
       <title>Use Cases</title>
-      <link>/use-cases/</link>
+      <link>https://fme-industry.github.io/use-cases/</link>
       <pubDate>Sun, 06 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>/use-cases/</guid>
+      <guid>https://fme-industry.github.io/use-cases/</guid>
       <description>&lt;p&gt;This page is now under construction.
 This page will contain use cases of formal methods.&lt;/p&gt;
 </description>
@@ -139,9 +139,9 @@ This page will contain use cases of formal methods.&lt;/p&gt;
     
     <item>
       <title>...</title>
-      <link>/post/events/event1/</link>
+      <link>https://fme-industry.github.io/post/events/event1/</link>
       <pubDate>Thu, 03 Oct 2019 12:05:12 +0100</pubDate>
-      <guid>/post/events/event1/</guid>
+      <guid>https://fme-industry.github.io/post/events/event1/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Some great event&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Event description&lt;/p&gt;
 </description>

@@ -5,7 +5,7 @@
     <link>https://fme-industry.github.io/</link>
       <atom:link href="https://fme-industry.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Formal Methods &amp; Industry</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 14 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 02 Dec 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://fme-industry.github.io/img/fme.png</url>
       <title>Formal Methods &amp; Industry</title>
@@ -82,6 +82,77 @@
       <guid>https://fme-industry.github.io/previous-members/</guid>
       <description>&lt;p&gt;Previous members:&lt;/p&gt;
 &lt;p&gt;None&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>December 2020 Meeting</title>
+      <link>https://fme-industry.github.io/post/meetings/meeting2/</link>
+      <pubDate>Wed, 02 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://fme-industry.github.io/post/meetings/meeting2/</guid>
+      <description>&lt;h2 id=&#34;december-2-2020-fme-industry-committee-meeting&#34;&gt;December 2, 2020, FME Industry Committee meeting&lt;/h2&gt;
+&lt;h3 id=&#34;present&#34;&gt;Present&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Jonathan Bowen&lt;/li&gt;
+&lt;li&gt;Jan Friso Groote&lt;/li&gt;
+&lt;li&gt;Colin O&amp;rsquo;Halloran&lt;/li&gt;
+&lt;li&gt;John Hatcliff&lt;/li&gt;
+&lt;li&gt;Klaus Havelund&lt;/li&gt;
+&lt;li&gt;Thierry Lecomte&lt;/li&gt;
+&lt;li&gt;Cristina Seceleanu&lt;/li&gt;
+&lt;li&gt;Markus Völter&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;agenda&#34;&gt;Agenda&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Agreeing on objectives&lt;/li&gt;
+&lt;li&gt;Do we need funding?&lt;/li&gt;
+&lt;li&gt;The tasks&lt;/li&gt;
+&lt;li&gt;Video with interviews&lt;/li&gt;
+&lt;li&gt;Other issues&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;agreeing-on-objectives&#34;&gt;Agreeing on objectives&lt;/h3&gt;
+&lt;p&gt;The following objectives were agreed upon:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Increase use of formal methods in industry.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Increase awareness in industry of formal methods. This includes informing the industry about which formal methods are available, which companies use formal methods, which companies offer formal methods and consultancy, industrial success stories of formal methods, and other relevant material such as links to papers concerned with the above aspects. It also includes announcement of industrially oriented events.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Increase awareness in the formal methods community of industrial use of formal methods. This forms a feedback on what works and what does not work in practice, and can help steer the formal methods community towards successful approaches.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Increase research collaboration between academia and industry.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;do-we-need-funding&#34;&gt;Do we need funding?&lt;/h3&gt;
+&lt;p&gt;FME chair Ana Cavalcanti had raised the question whether the industry committee wanted to ask for specific funding. The committee did not think there was a need for this at the current moment.&lt;/p&gt;
+&lt;p&gt;Colin O&amp;rsquo;Halloran mentioned &lt;a href=&#34;https://www.hubcap.eu&#34;&gt;https://www.hubcap.eu&lt;/a&gt; as a potential model for formal methods to adopt, and suggested that we applied the European Union to establish a similar site for formal methods. No conclusion was reached, but the committee found the idea interesting.
+Some points were raised, including that such a site is only useful if some help is provided in choosing a method, that there is overlap between the contents of this site (model-based engineering) and formal methods, and that we already have a list of formal methods. The observation was made there there is a need to connect the formal methods community with the model-based engineering community.&lt;/p&gt;
+&lt;h3 id=&#34;the-tasks&#34;&gt;The tasks&lt;/h3&gt;
+&lt;p&gt;The members of the committee were encouraged to submit further data concerning the agreed upon tasks of the committee:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Create list of &amp;lsquo;formal methods tools&amp;rsquo; with focus on
+mature tools, preferably used by others than the developers, and preferably with use in industry.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Create list of &amp;lsquo;applications of formal methods&amp;rsquo; that demonstrate feasibility.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Create list of &amp;lsquo;industrial formal methods users&amp;rsquo;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Create list of ‘formal methods companies&amp;rsquo; offering formal methods tools or consulting in formal methods.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;video-with-interviews&#34;&gt;Video with interviews&lt;/h3&gt;
+&lt;p&gt;Einar Broch Johnsen has suggested that a video is created with interviews of a small collection of people from industry that use formal methods. Such a &lt;a href=&#34;https://www.youtube.com/watch?v=BnANyL4H8i4&#34;&gt;video&lt;/a&gt; was created at FM 2019 with interviews of formal methods academics, and lasted less than 6 minutes.&lt;/p&gt;
+&lt;p&gt;I was suggested that such a video could function as an introduction to the industry website. One suggestion was to make it specific about just one project.&lt;/p&gt;
+&lt;p&gt;Markus Volter suggested to arrange podcasts (audio) on a regular basis, e.g. one per month, of about an hour (minimum 30 minutes) in length, interviewing each time one particular person. The theme should be: formal methods, how they work, and what they do. This would not necessarily only be interviews with industry people. We would probably need funding for such an activity. A comment was that one hour is a long time for people not familiar with formal methods.&lt;/p&gt;
+&lt;h3 id=&#34;other-issues&#34;&gt;Other issues&lt;/h3&gt;
+&lt;p&gt;Jonathan Bowen suggested that instead of lists (of e.g. formal methods on the website) we could have wiki-style categories. E.g.: &lt;a href=&#34;https://en.wikipedia.org/wiki/Category:Formal_methods&#34;&gt;https://en.wikipedia.org/wiki/Category:Formal_methods&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     

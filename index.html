@@ -957,25 +957,24 @@
     <div class="col-lg-12">
       <h1>Formal Methods</h1>
       
-      <p>Below is a list of formal methods.</p>
+      <p>Below is a list of tools to support formal methods.</p>
 <p>Submit your formal method <a href="https://forms.gle/Lmy6ZPPxYgjj7gXMA">here</a> in case it is not on the list. You may also submit comments to the website. Or: simply send an email to Tim Willemse <a href="mailto:T.A.C.Willemse@TUe.nl">T.A.C.Willemse@TUe.nl</a>.</p>
 <p>Tools within each group are sorted alphabetically. A $-sign indicates that there is a commercial company behind
 and that acquisition of the tool is fee-based for industrial use.</p>
 <p>PS: Note that the grouping of these tools is not ideal in several cases. A label system would be preferable and may be implemented in the near future.</p>
 <h2 id="of-general-interest">Of General Interest</h2>
-<pre tabindex="0"><code>Websites offering surveys and categories of formal methods oriented tools.
-</code></pre><ul>
+<p>Websites offering surveys and categories of formal methods oriented tools.</p>
+<ul>
 <li><a href="http://www.fmeurope.org/choosingaformalmethod">Choosing a Formal Method</a></li>
 <li><a href="https://formalmethods.wikia.org/wiki/Formal_methods">Formal Methods Wiki</a></li>
-<li><a href="https://rise4fun.com">rise4fun.com</a></li>
 </ul>
 <h2 id="theorem-provers">Theorem Provers</h2>
-<pre tabindex="0"><code>A theorem prover usually supports a very expressive specification 
-language (logic), such as e.g. classical higher order logic or 
-constructive type theory, a proof system, and mechanized support 
-for performing proofs. Proofs normally require manual effort, 
-including providing loop invariants.
-</code></pre><ul>
+<p>A theorem prover usually supports a very expressive specification
+language (logic), such as e.g. classical higher order logic or
+constructive type theory, a proof system, and mechanized support
+for performing proofs. Proofs normally require manual effort,
+including providing loop invariants.</p>
+<ul>
 <li><a href="http://www.cs.utexas.edu/users/moore/acl2">ACL2</a></li>
 <li><a href="https://www.atelierb.eu/en">Atelier B</a></li>
 <li><a href="https://www.methode-b.com/en/accueil">B</a></li>
@@ -990,27 +989,29 @@ including providing loop invariants.
 <li><a href="https://vprover.github.io">Vampire</a></li>
 </ul>
 <h2 id="rewrite-systems">Rewrite Systems</h2>
-<pre tabindex="0"><code>Rewrite systems are based on so-called algebraic specification languages, 
-where data types are specified by naming types (but not their contents), 
-operations on those types, and equations between terms of operation applications. 
-E.g. instead of specifying a stack as a list of elements, one specifies that 
-pushing an element to a stack and then popping an element leaves us with the 
-original stack. Rewrite systems perform rewriting of such terms. One may perceive 
-rewrite systems as a sub-class of theorem provers.
-</code></pre><ul>
+<p>Rewrite systems are based on so-called algebraic specification languages,
+where data types are specified by naming types (but not their contents),
+operations on those types, and equations between terms of operation applications.
+E.g. instead of specifying a stack as a list of elements, one specifies that
+pushing an element to a stack and then popping an element leaves us with the
+original stack. Rewrite systems perform rewriting of such terms. One may perceive
+rewrite systems as a sub-class of theorem provers.</p>
+<ul>
 <li><a href="http://www.informatik.uni-bremen.de/cofi/index.php/CASL">CASL</a></li>
 <li><a href="http://maude.cs.illinois.edu">Maude</a></li>
 </ul>
 <h2 id="model-checkers">Model Checkers</h2>
-<pre tabindex="0"><code>A model checker usually supports a specification language (logic) of 
-limited expressiveness (compared to e.g. theorem proving langages), 
+<p>A model checker usually supports a specification language (logic) of
+limited expressiveness (compared to e.g. theorem proving langages),
 but where verification is fully automated. Focus is typically on
-specification and verification of concurrent systems.
-</code></pre><ul>
+specification and verification of concurrent systems.</p>
+<ul>
 <li><a href="http://cadp.inria.fr">CADP</a></li>
 <li><a href="http://cpntools.org">CPN</a></li>
+<li><a href="https://www.verum.com">Dezyne</a> ($)</li>
 <li><a href="https://sites.google.com/site/fastenroot/home">FASTEN</a></li>
 <li><a href="https://www.cs.ox.ac.uk/projects/fdr">FDR4</a></li>
+<li><a href="http://ltsmin.utwente.nl">LTSmin</a></li>
 <li><a href="https://www.mcrl2.org">mCRL2</a></li>
 <li><a href="http://formalverification.cs.utah.edu/Murphi">Murphi</a></li>
 <li><a href="http://nusmv.fbk.eu">NuSMV</a></li>
@@ -1020,37 +1021,39 @@ specification and verification of concurrent systems.
 <li><a href="http://www.uppaal.com">UPPAAL Commercial</a> ($)</li>
 </ul>
 <h2 id="sat-solvers">SAT Solvers</h2>
-<pre tabindex="0"><code>SAT stands for Boolean SATisfiability (also called propositional
+<p>SAT stands for Boolean SATisfiability (also called propositional
 satisfiability) and is the problem of determining if there exists
 an interpretation that satisfies a given Boolean formula.
 In other words, it asks whether the variables of a given Boolean
 formula can be consistently replaced by the values TRUE or FALSE
 in such a way that the formula evaluates to TRUE. SAT is fully
-automated.
-</code></pre><ul>
+automated.</p>
+<ul>
 <li><a href="http://alloytools.org">Alloy</a></li>
+<li><a href="https://github.com/haslab/Electrum2">Electrum</a></li>
+<li><a href="http://minisat.se/">MiniSat</a></li>
 </ul>
 <h2 id="smt-solvers">SMT Solvers</h2>
-<pre tabindex="0"><code>SMT (Satisfiability Modulo Theories) is a generalization of the
+<p>SMT (Satisfiability Modulo Theories) is a generalization of the
 SAT problem, and is a form of the constraint satisfaction problem,
 which extends first-order logic with additional theories,
 such as e.g. real numbers, integers, and theories of various
 data structures such as lists, arrays, bit vectors and so on.
 Decision procedures decide satisfiablity of formulas in these
-extended logics. SMT is fully automated.
-</code></pre><ul>
-<li><a href="https://cvc4.github.io">CVC4</a></li>
+extended logics. SMT is fully automated.</p>
+<ul>
+<li><a href="https://cvc5.github.io">CVC5</a></li>
 <li><a href="http://yices.csl.sri.com">Yices</a></li>
 <li><a href="https://github.com/Z3Prover">Z3</a></li>
 </ul>
 <h2 id="static-analysis">Static Analysis</h2>
-<pre tabindex="0"><code>Static program analysis is the analysis of computer software 
-performed without actually executing programs. Analysis 
-is performed on the source code or generated object code. 
-Static analysis cannot verify functional correctness but focuses 
+<p>Static program analysis is the analysis of computer software
+performed without actually executing programs. Analysis
+is performed on the source code or generated object code.
+Static analysis cannot verify functional correctness but focuses
 on detecting bad programming practices, and does so fully
-automatically and scalable.
-</code></pre><ul>
+automatically and scalable.</p>
+<ul>
 <li><a href="https://www.absint.com">AbsInt</a> ($)</li>
 <li><a href="https://www.grammatech.com/products/codesonar">CodeSonar</a> ($)</li>
 <li><a href="https://scan.coverity.com">Coverity</a> ($)</li>
@@ -1059,13 +1062,13 @@ automatically and scalable.
 <li><a href="https://semmle.com">Semmle</a> ($)</li>
 </ul>
 <h2 id="dynamic-analysis">Dynamic Analysis</h2>
-<pre tabindex="0"><code>Dynamic analysis  is based on extracting information from a 
-running system and using it to detect and possibly react to 
-violation of certain properties. Some very particular properties, 
-such as datarace and deadlock freedom, are typically desired to be 
-satisfied by all systems and may be best implemented algorithmically. 
-Other properties can be more conveniently captured as formal specifications. 
-</code></pre><ul>
+<p>Dynamic analysis  is based on extracting information from a
+running system and using it to detect and possibly react to
+violation of certain properties. Some very particular properties,
+such as datarace and deadlock freedom, are typically desired to be
+satisfied by all systems and may be best implemented algorithmically.
+Other properties can be more conveniently captured as formal specifications.</p>
+<ul>
 <li><a href="https://liflab.github.io/beepbeep-3">BeepBeep3</a></li>
 <li><a href="https://github.com/havelund/dejavu">DejaVu</a></li>
 <li><a href="http://fsl.cs.illinois.edu/index.php/JavaMOP4">JavaMOP</a></li>
@@ -1075,22 +1078,21 @@ Other properties can be more conveniently captured as formal specifications.
 <li><a href="http://valgrind.org">Valgrind</a></li>
 </ul>
 <h2 id="model-based-testing">Model-based Testing</h2>
-<pre tabindex="0"><code>Model-based testing uses a formal model to test a System Under Test
+<p>Model-based testing uses a formal model to test a System Under Test
 (SUT). The model can represent the desired behavior of the SUT, or
-can represent testing strategies and/or test environment. 
-</code></pre><ul>
+can represent testing strategies and/or test environment.</p>
+<ul>
 <li><a href="http://graphwalker.github.io">GraphWalker</a></li>
 <li><a href="https://www.reactive-systems.com">Reactis</a> ($)</li>
-<li><a href="https://www.verum.com">verum</a> ($)</li>
 </ul>
 <h2 id="modeling">Modeling</h2>
-<pre tabindex="0"><code>Modeling is the activity of formalizing a problem before it is 
+<p>Modeling is the activity of formalizing a problem before it is
 solved, and/or it is the acticity modeling the solution at a high
 level of abstraction. As such this activity is common for all of the
 approaches mentioned on this page. However, this particular category
 is meant for approaches where the main focus is on modeling rather
-than on formal verification.
-</code></pre><ul>
+than on formal verification.</p>
+<ul>
 <li><a href="http://web.eecs.umich.edu/gasm">ASM</a> <a href="https://formalmethods.wikia.org/wiki/Abstract_State_Machines">wikia</a></li>
 <li><a href="http://argouml.tigris.org">ArgoUML</a></li>
 <li><a href="http://symbolaris.com/logic/dL.html">dL</a></li>
@@ -1101,12 +1103,12 @@ than on formal verification.
 <li><a href="http://czt.sourceforge.net">Z (CZT)</a></li>
 </ul>
 <h2 id="verifiable-programming-languages">Verifiable Programming Languages</h2>
-<pre tabindex="0"><code>A verifiable programming language is a programming language supporting
-a logic for specifying functional correctness of code, e.g. pre/post 
-conditions and invariants, and (usually) tool support for proving such 
+<p>A verifiable programming language is a programming language supporting
+a logic for specifying functional correctness of code, e.g. pre/post
+conditions and invariants, and (usually) tool support for proving such
 properties of the code correct. Proofs normally require manual addition
-of lemmas (e.g. loop invariants).
-</code></pre><ul>
+of lemmas (e.g. loop invariants).</p>
+<ul>
 <li><a href="https://wiki.portal.chalmers.se/agda/pmwiki.php">Agda</a></li>
 <li><a href="http://bandera.projects.cs.ksu.edu">Bandera</a> (Java)</li>
 <li><a href="https://www.microsoft.com/en-us/research/project/dafny-a-language-and-program-verifier-for-functional-correctness">Dafny</a></li>
@@ -1121,11 +1123,11 @@ of lemmas (e.g. loop invariants).
 <li><a href="https://github.com/p-org/P">P</a></li>
 <li><a href="https://www.microsoft.com/en-us/research/project/spec/">Spec#</a> (C#)</li>
 <li><a href="https://www.adacore.com/sparkpro">Spark Ada</a> ($)</li>
+<li><a href="https://lamport.azurewebsites.net/tla/tla.html">TLA+</a></li>
 <li><a href="https://github.com/verifast/verifast">VeriFast</a> ( C )</li>
 <li><a href="https://www.microsoft.com/en-us/research/project/vcc-a-verifier-for-concurrent-c/">VCC</a> ( C )</li>
 <li><a href="http://whiley.org">Whiley</a></li>
 <li><a href="http://why3.lri.fr">Why3</a> (Ocaml)</li>
-<li></li>
 </ul>
 
     </div>

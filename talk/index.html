@@ -642,6 +642,19 @@
 <p>The talks are aimed at people working in industry wishing to learn from others applying Formal Methods at industrial scale, but also academics interested in applying and improving their methods.</p>
 <hr>
 <h2 id="upcoming-talk">Upcoming talk:</h2>
+<p><em>Presenter:</em> David Delmas, Airbus, Fr</p>
+<p><em>Date:</em> 16 January, 15.00-16.00 (CET)</p>
+<p><em>Zoom:</em> to be announced</p>
+<p><em>Title:</em> Formal Verification of Avionics Software</p>
+<p><em>Abstract:</em> The size and complexity of avionics software have grown exponentially from one aircraft generation to the next in the past 4 decades. Traditional software development processes leveraging informal verification techniques fail to scale within reasonable costs. In particular, verification is liable for a steadily growing share of the overall development costs. The 2015 current status was about 70%.
+To address this issue, Airbus have been transforming internal development processes since 2016. Internal domain-specific languages have been developed to enable the formalization of design artifacts, and automate part of verification activities.
+Automation is enabled by the interoperation of tools relying on sound formal techniques. For instance, Frama-C/WP and SMT-solvers are used to automate unit verification with deductive methods. Most so-called Unit Proofs are automatic, assuming high-level memory and numerical models, as well as some preconditions. Such assumptions are verified by other tools, such as the Astrée static analyzer, which leverages Abstract Interpretation to prove the absence of run-time errors and check assumed non-aliasing properties. We rely on the CompCert formally verified compiler to enable that most formal verification activities may be conducted on source code.
+Beyond safety properties and currently established processes, we also develop internally static analyses by Abstract Interpretation to automate regression verification and portability verification. In particular, our portability analysis is able to prove without false alarms the portability of low-level C avionics software up to 1 million lines of C across platforms with opposite byte-orders (endianness).</p>
+<p><em>Bio:</em> David Delmas has been working as an avionics software engineer at Airbus since 2001. He specializes in methods and tools, with a strong focus on formal verification.
+He has contributed to the transfer of research prototypes into the development workshops of operational avionics software teams since 2007. These tools include the Astrée and Fluctuat static analyzers, and the Frama-C platform. They are currently used as part of the verification processes of safety-critical avionics software products.
+He completed a PhD thesis on the static analysis of program portability by abstract interpretation in 2022, as part of his work at Airbus.</p>
+<hr>
+<h2 id="past-talks">Past talks:</h2>
 <p><em>Presenter:</em> Leo Freitas, ScubaTx, UK</p>
 <p><em>Date:</em> 3 October, 16.00-17.00 (CEST)</p>
 <p><em>Zoom:</em> <a href="https://mdu-se.zoom.us/j/68372371873?pwd=hhYzv1Y0CHY12C078u72uEMbGbCauB.1">https://mdu-se.zoom.us/j/68372371873?pwd=hhYzv1Y0CHY12C078u72uEMbGbCauB.1</a></p>
@@ -649,7 +662,6 @@
 <p><em>Abstract:</em> Digital Twins (DTs) are a promising technology for integrating device monitoring and data consumption to improve performance. This technology has seen utilisation in various industries that use cyber-physical systems. An unexpected area is medical devices. In this paper, we explore DTs use for an organ preservation device, which, helps improve transplantation outcomes by actively managing the organ during transport to prevent biological degradation. Whilst reducing the burden on specialists. Digital twinning offers an exciting direction of development for medical devices to improve transplantation outcomes.</p>
 <p><em>Bio:</em> Leo is a Senior Lecturer in Formal Methods and Tools and Newcastle University (UK) with 25 years experience in safety-critical systems development involving model based design, formal specification, model checking and theorem proving. He has applied these techniques to industrial scale in various areas like avionics (AeroEngines, Praxis) , transportation, payment systems (e.g. EMV, MasterCard, Mondex), cyber security and medical. For the last 10 years, Leo has worked on various embedded medical devices and is the Co-Founder and CIO of an organ preservation start-up (ScubaTx) since 2020.</p>
 <hr>
-<h2 id="past-talks">Past talks:</h2>
 <p><em>Presenter:</em> Daniel Fredholm, Prover Technology, Sweden</p>
 <p><em>Date:</em> 16 May, 15.00-16.00 (CEST)</p>
 <p><em>Video:</em> See the <a href="https://youtu.be/dW0JwyoFzrM">recording</a> of the Zoom meeting (the first few minutes are missing due to technical problems; our apologies)</p>
